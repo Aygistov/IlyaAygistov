@@ -1,0 +1,329 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	//outline: 2px solid green;	
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+/******************************** Навигационное меню *********************************/
+.title {
+	padding: 15px;
+	font-weight: bolder;	
+}
+.navigator {
+	background-color: whitesmoke;	
+	color: dimgrey;	
+	width: 200px;
+	height: 1500px;
+	font-size: 110%;		
+	position: fixed;
+}
+
+.navigator img {
+	height: 20px;
+	width: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	vertical-align: middle;	
+}
+
+.navigator span {	
+	vertical-align: middle;	
+}
+
+.nav-li {
+	list-style-type: none;	
+}
+
+.button {	
+	padding-left: 5px;	
+	display: block;	
+	text-decoration: none;		
+	color: inherit;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.button:hover {          
+    background-color: gainsboro;
+}
+
+
+/********************************* Секция Главная *********************************/
+
+h1 {
+	padding: 70px 0px 20px 0px;
+	font-size: 300%;			
+}
+
+h2 {
+	padding: 70px 0px 10px 0px;	
+	font-size: 250%;			
+}
+
+section {
+	padding-left: 200px; 
+}
+
+.home-section {	
+	text-align: center;
+	height: 500px;	
+	background-color: gainsboro;	
+}
+
+/********************************* Секция Профиль *********************************/
+
+.profile-section {	
+	text-align: center;
+	background-color: gainsboro;	
+}
+
+.profile-title {
+	padding: 50px 0px 50px 0px;
+	background-color: gray;
+	color: white;		
+}
+
+.profile-body {	
+	padding-top: 45px;
+	background-color: silver;
+}
+.profile-image {
+	border-radius: 100%;
+	border: 4px solid white;	
+}
+
+ul.profile-detail {
+	color: white;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	padding-bottom: 40px;
+}
+
+ul.profile-detail li {
+	padding: 30px 0px 0px 0px;
+	display: -moz-box;
+    display: -webkit-box;
+    display: flexbox;	
+}
+
+.key {
+	width: 48%;
+	text-align: right;
+	padding-right: 2%;
+	vertical-align: bottom;
+	padding-top: 5px;
+	padding-bottom: 10px;	
+}
+
+.value {
+	padding-left: 2%;
+	border-left: 1px solid gainsboro;
+	font-size: 130%;
+	font-weight: bolder;			
+}
+
+/********************************* Секция Опыт работы *********************************/
+
+.experience-title {
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	background-color: gray;
+	color: white;	
+}
+
+.experience-body {
+	background-color: gainsboro;
+	color: gray;		
+}
+
+.experience-detail {
+	list-style-type: none;
+	padding: 30px 0px 0px 50px;
+}
+
+.experience-detail li {
+	padding: 20px;
+}
+
+.position:not(:last-child) {
+	border-right: 2px solid gray;
+}
+.company {
+	font-size: 150%;
+	font-weight: bold;
+	padding-right: 5px;
+	border-right: 2px solid gray;	
+}
+
+.position {
+	font-size: 100%;
+	padding-right: 5px;	
+}
+
+.experience-detail-keywords {
+	display: inline-block;
+	list-style-type: none;	
+	padding-top: 5px;    
+}
+
+.experience-detail-keywords li {
+	float: left;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+	padding: 5px 10px 5px 10px;
+	margin-left: 5px;
+	list-style-type: none;
+	font-size: 80%;    
+}
+
+.experience-detail-responsibility {
+	list-style-type: none;
+	padding-top: 5px;    
+}
+
+.experience-detail-responsibility li {
+	padding: 4px 0px 4px 4px;    
+}
+
+.experience-detail-responsibility li:before {
+    content: "> ";
+}
+
+/********************************* Секция Технологии *********************************/
+
+.technology-title {
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	background-color: gray;
+	color: white;	
+}
+
+.technology-body {
+	background-color: gainsboro;
+	color: gray;		
+	padding: 10px 0px 20px 0px;
+	display: inline-flex;
+    flex-flow: row wrap;
+    width: 100%;    
+}
+
+.technology-body figure {
+	padding: 20px 10px 0px 10px;
+	margin: 20px 10px 0px 10px;
+	box-shadow: 2px 2px 5px gray;
+	background-color: white;
+}
+
+.technology-body img {
+	height: 100px;
+	width: 100px;
+}
+
+.technology-body figcaption {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+/********************************* Секция Образование *********************************/
+
+.education-title {
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	background-color: gray;
+	color: white;	
+}
+
+.education-body {
+	background-color: gainsboro;
+	color: gray;		
+}
+
+/********************************* Секция Контакты *********************************/
+
+.contacts-title {
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+	background-color: gray;
+	color: white;	
+}
+
+.contacts-body {
+	background-color: gainsboro;
+	color: dimgrey;			
+	padding: 20px;
+}
+
+.contacts-detail {
+	list-style-type: none;  
+}
+
+.contacts-detail img {
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.contacts-detail span {
+	display: inline-block;
+	padding: 7px 0px 5px 0px;
+	vertical-align: top;
+}
+	
+/********************************* Медиаселекторы *********************************/
+
+@media screen and (max-width: 600px) {
+	.navigator {
+		width: 100%;	
+		height: 42px;
+	}
+
+	.title {
+		display: none;		
+	}	
+
+	.nav-ul {
+		display: inline-flex;	
+    	width: 100%;
+	}
+
+	.button {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.nav-li {
+		display: flex;
+		flex: 1;	
+		text-align: center;
+	}
+
+	.nav-li:first-child {
+		flex: 0;	
+	}
+
+	.navigator span {
+		display: none;
+	}	
+
+	section {			
+		padding-left: 0px;
+	}
+
+	ul.profile-detail li {
+		display: block;
+	}
+
+	.key {
+		text-align: left;
+		padding-left: 50px;
+	}
+
+	.value {
+		text-align: left;
+		padding-left: 50px;
+		border-left: none;
+	}
+}	
