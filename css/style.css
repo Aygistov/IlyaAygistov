@@ -52,12 +52,15 @@
 /********************************* Секция Главная *********************************/
 
 h1 {
-	padding: 100px 0px 20px 0px;
+	padding: 80px 0px 40px 0px;
 	font-size: 300%;			
 }
 
 h2 {
-	padding: 70px 0px 10px 0px;	
+	text-align: center;
+	padding: 80px 0px 80px 0px;
+	background-color: gray;
+	color: white;	
 	font-size: 250%;			
 }
 
@@ -77,12 +80,6 @@ section {
 .profile-section {	
 	text-align: center;
 	background-color: gainsboro;	
-}
-
-.profile-title {
-	padding: 50px 0px 50px 0px;
-	background-color: gray;
-	color: white;		
 }
 
 .profile-body {	
@@ -126,13 +123,6 @@ ul.profile-detail li {
 }
 
 /********************************* Секция Опыт работы *********************************/
-
-.experience-title {
-	text-align: center;
-	padding: 50px 0px 50px 0px;
-	background-color: gray;
-	color: white;	
-}
 
 .experience-body {
 	background-color: gainsboro;
@@ -194,13 +184,6 @@ ul.profile-detail li {
 
 /********************************* Секция Технологии *********************************/
 
-.technology-title {
-	text-align: center;
-	padding: 50px 0px 50px 0px;
-	background-color: gray;
-	color: white;	
-}
-
 .technology-body {
 	background-color: gainsboro;
 	color: gray;		
@@ -226,16 +209,10 @@ ul.profile-detail li {
 	text-align: center;
 	color: black;
 	font-weight: bold;
+	padding-bottom: 5px;
 }
 
 /********************************* Секция Образование *********************************/
-
-.education-title {
-	text-align: center;
-	padding: 50px 0px 50px 0px;
-	background-color: gray;
-	color: white;	
-}
 
 .education-body {
 	background-color: gainsboro;
@@ -243,13 +220,6 @@ ul.profile-detail li {
 }
 
 /********************************* Секция Контакты *********************************/
-
-.contacts-title {
-	text-align: center;
-	padding: 50px 0px 20px 0px;
-	background-color: gray;
-	color: white;	
-}
 
 .contacts-body {
 	background-color: gainsboro;
