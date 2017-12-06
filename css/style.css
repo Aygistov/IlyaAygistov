@@ -52,7 +52,7 @@
 /********************************* Секция Главная *********************************/
 
 h1 {
-	padding: 70px 0px 20px 0px;
+	padding: 100px 0px 20px 0px;
 	font-size: 300%;			
 }
 
@@ -70,6 +70,7 @@ section {
 	height: 500px;	
 	background-color: gainsboro;	
 }
+
 
 /********************************* Секция Профиль *********************************/
 
@@ -327,3 +328,39 @@ ul.profile-detail li {
 		border-left: none;
 	}
 }	
+
+@media only screen and (max-device-width: 1300px){
+
+	.home-section p {	
+		font-size: 150%;
+	}
+
+	.key {	
+		font-size: 200%;
+	}
+
+	.experience-detail-keywords li {
+		font-size: 150%;	
+	}
+
+	.technology-body figcaption {
+		font-size: 150%;
+	}
+	
+	.contacts-detail span {
+		font-size: 150%;	
+	}
+
+	.experience-detail-responsibility li {
+		font-size: 150%;		
+	}
+		
+	.navigator img {
+		height: 50px;
+		width: 50px;
+	}
+	.navigator {
+		height: 70px;		
+	}
+
+}
