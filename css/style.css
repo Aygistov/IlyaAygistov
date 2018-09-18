@@ -27,6 +27,15 @@
 	vertical-align: middle;	
 }
 
+.navigator i{
+	height: 20px;
+	width: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+
 .navigator span {	
 	vertical-align: middle;	
 }
@@ -52,13 +61,13 @@
 /********************************* Секция Главная *********************************/
 
 h1 {
-	padding: 80px 0px 40px 0px;
+	padding: 80px 0 40px 0;
 	font-size: 300%;			
 }
 
 h2 {
 	text-align: center;
-	padding: 80px 0px 80px 0px;
+	padding: 80px 0 80px 0;
 	background-color: gray;
 	color: white;	
 	font-size: 250%;			
@@ -100,10 +109,10 @@ ul.profile-detail {
 }
 
 ul.profile-detail li {
-	padding: 30px 0px 0px 0px;
+	padding: 30px 0 0 0;
 	display: -moz-box;
     display: -webkit-box;
-    display: flexbox;	
+    //display: flexbox;
 }
 
 .key {
@@ -131,7 +140,7 @@ ul.profile-detail li {
 
 .experience-detail {
 	list-style-type: none;
-	padding: 30px 0px 0px 50px;
+	padding: 30px 0 0 50px;
 }
 
 .experience-detail li {
@@ -175,7 +184,7 @@ ul.profile-detail li {
 }
 
 .experience-detail-responsibility li {
-	padding: 4px 0px 4px 4px;    
+	padding: 4px 0 4px 4px;
 }
 
 .experience-detail-responsibility li:before {
@@ -187,15 +196,15 @@ ul.profile-detail li {
 .technology-body {
 	background-color: gainsboro;
 	color: gray;		
-	padding: 10px 0px 20px 0px;
+	padding: 10px 0 20px 0;
 	display: inline-flex;
     flex-flow: row wrap;
     width: 100%;    
 }
 
 .technology-body figure {
-	padding: 20px 10px 0px 10px;
-	margin: 20px 10px 0px 10px;
+	padding: 20px 10px 0 10px;
+	margin: 20px 10px 0 10px;
 	box-shadow: 2px 2px 5px gray;
 	background-color: white;
 }
@@ -203,6 +212,13 @@ ul.profile-detail li {
 .technology-body img {
 	height: 100px;
 	width: 100px;
+}
+
+.technology-body i{
+	height: 105px;
+	width: 100px;
+	font-size:100px;
+	text-align: center;
 }
 
 .technology-body figcaption {
@@ -231,17 +247,13 @@ ul.profile-detail li {
 	list-style-type: none;  
 }
 
-.contacts-detail img {
-	height: 30px;
-	width: 30px;
-	padding-right: 10px;
-	vertical-align: middle;
+.contacts-detail i {
+	padding-right: 5px;
+	font-size:20px;
 }
 
 .contacts-detail span {
 	display: inline-block;
-	padding: 7px 0px 5px 0px;
-	vertical-align: middle;
 }
 	
 /********************************* Медиаселекторы *********************************/
@@ -262,7 +274,7 @@ ul.profile-detail li {
 
 	.button {
 		width: 100%;
-		padding-left: 0px;
+		padding-left: 0;
 	}
 
 	.nav-li {
@@ -280,7 +292,7 @@ ul.profile-detail li {
 	}	
 
 	section {			
-		padding-left: 0px;
+		padding-left: 0;
 	}
 
 	ul.profile-detail li {
