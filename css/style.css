@@ -207,6 +207,7 @@ ul.profile-detail li {
 	margin: 20px 10px 0 10px;
 	box-shadow: 2px 2px 5px gray;
 	background-color: white;
+	filter: saturate(70%);
 }
 
 .technology-body img {
@@ -228,11 +229,55 @@ ul.profile-detail li {
 	padding-bottom: 5px;
 }
 
+/********************************* Секция Увлечения *********************************/
+
+.hobbies-body {
+	background-color: gainsboro;
+	color: gray;
+	padding: 10px 0 20px 0;
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.hobbies-body figure {
+	padding: 20px 10px 0 10px;
+	margin: 20px 10px 0 10px;
+	box-shadow: 2px 2px 5px gray;
+	background-color: white;
+}
+
+.hobbies-body img {
+	height: 100px;
+	width: 100px;
+}
+
+.hobbies-body i{
+	height: 105px;
+	width: 100px;
+	font-size:80px;
+	text-align: center;
+}
+
+.hobbies-body figcaption {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
 /********************************* Секция Образование *********************************/
 
 .education-body {
 	background-color: gainsboro;
 	color: gray;		
+}
+
+/********************************* Секция Курсы *********************************/
+
+.courses-body {
+	background-color: gainsboro;
+	color: gray;
 }
 
 /********************************* Секция Контакты *********************************/
