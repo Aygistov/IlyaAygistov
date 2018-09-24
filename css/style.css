@@ -15,8 +15,9 @@
 	color: dimgrey;	
 	width: 200px;
 	height: 1500px;
-	font-size: 110%;		
+	font-size: 110%;
 	position: fixed;
+	z-index: 1;
 }
 
 .navigator img {
@@ -203,10 +204,12 @@ ul.profile-detail li {
 }
 
 .technology-body figure {
-	padding: 20px 10px 0 10px;
+	padding: 10px 10px 0 10px;
 	margin: 20px 10px 0 10px;
 	box-shadow: 2px 2px 5px gray;
 	background-color: white;
+	height: 130px;
+	width: 100px;
 	filter: saturate(70%);
 }
 
@@ -305,7 +308,12 @@ ul.profile-detail li {
 @media only screen and (max-width: 600px), only screen and (max-device-width: 1300px){
 	.navigator {
 		width: 100%;	
-		height: 42px;
+		height: 50px;
+		font-size: 160%;
+	}
+	.navigator i{
+		height: 100%;
+		width: 40px;
 	}
 
 	.title {
@@ -371,11 +379,16 @@ ul.profile-detail li {
 	}
 
 	.technology-body figcaption {
-		font-size: 150%;
+		font-size: 130%;
 	}
-	
+
+	.hobbies-body figcaption {
+		font-size: 130%;
+	}
+
 	.contacts-detail span {
-		font-size: 150%;	
+		font-size: 150%;
+		padding-left: 7px;
 	}
 
 	.experience-detail-responsibility li {
@@ -387,7 +400,12 @@ ul.profile-detail li {
 		width: 50px;
 	}
 	.navigator {
-		height: 70px;		
+		height: 66px;
+		font-size: 40px;
 	}
 
+	.navigator i{
+		height: 40px;
+		width: 40px;
+	}
 }
