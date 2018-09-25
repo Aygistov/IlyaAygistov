@@ -371,11 +371,7 @@ ul.profile-detail li {
 	}
 
 	.key {	
-		font-size: 200%;
-	}
-
-	.experience-detail-keywords li {
-		font-size: 150%;	
+		font-size: 150%;
 	}
 
 	.technology-body figcaption {
@@ -389,10 +385,6 @@ ul.profile-detail li {
 	.contacts-detail span {
 		font-size: 150%;
 		padding-left: 7px;
-	}
-
-	.experience-detail-responsibility li {
-		font-size: 150%;		
 	}
 		
 	.navigator img {
