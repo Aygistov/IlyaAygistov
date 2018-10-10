@@ -5,6 +5,10 @@
 	//outline: 2px solid green;	
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+a {
+	color: gray !important;
+	text-decoration: none;
+}
 /******************************** Навигационное меню *********************************/
 .title {
 	padding: 15px;
@@ -232,6 +236,61 @@ ul.profile-detail li {
 	padding-bottom: 5px;
 }
 
+.technology-body figure:hover {
+	background-color: gainsboro;
+}
+/********************************* Секция Soft skills *********************************/
+
+.soft-skills-body {
+	background-color: gainsboro;
+	color: gray;
+	padding: 10px 0 20px 0;
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.soft-skills-body figure:nth-child(4n+3) {
+	color: #59898d;
+}
+.soft-skills-body figure:nth-child(4n+4) {
+	color: #5c565d;
+}
+.soft-skills-body figure:nth-child(4n+1) {
+	color: #b1d0d9;
+}
+.soft-skills-body figure:nth-child(4n+2) {
+	color: #c0b7b4;
+}
+
+.soft-skills-body figure {
+	padding: 20px 10px 0 10px;
+	margin: 20px 10px 0 10px;
+	box-shadow: 2px 2px 5px gray;
+	background-color: white;
+}
+
+.soft-skills-body img {
+	height: 100px;
+	width: 100px;
+}
+
+.soft-skills-body i{
+	height: 105px;
+	width: 100px;
+	font-size:80px;
+	text-align: center;
+}
+
+.soft-skills-body figcaption {
+	width: 100px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+
 /********************************* Секция Увлечения *********************************/
 
 .hobbies-body {
@@ -241,6 +300,19 @@ ul.profile-detail li {
 	display: inline-flex;
 	flex-flow: row wrap;
 	width: 100%;
+}
+
+.hobbies-body figure:nth-child(4n+1) {
+	color: #59898d;
+}
+.hobbies-body figure:nth-child(4n+2) {
+	color: #5c565d;
+}
+.hobbies-body figure:nth-child(4n+3) {
+	color: #b1d0d9;
+}
+.hobbies-body figure:nth-child(4n+4) {
+	color: #c0b7b4;
 }
 
 .hobbies-body figure {
@@ -276,13 +348,6 @@ ul.profile-detail li {
 	color: gray;		
 }
 
-/********************************* Секция Курсы *********************************/
-
-.courses-body {
-	background-color: gainsboro;
-	color: gray;
-}
-
 /********************************* Секция Контакты *********************************/
 
 .contacts-body {
@@ -292,17 +357,18 @@ ul.profile-detail li {
 }
 
 .contacts-detail {
-	list-style-type: none;  
+	list-style-type: none;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+
 }
 
 .contacts-detail i {
 	padding-right: 5px;
-	font-size:20px;
+	font-size:40px;
 }
 
-.contacts-detail span {
-	display: inline-block;
-}
 	
 /********************************* Медиаселекторы *********************************/
 @media only screen and (max-width: 600px), only screen and (max-device-width: 1300px){
